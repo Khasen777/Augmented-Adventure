@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Augmented Adventure</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Augmented Adventure</h1>
+    <nav>
+      <a href="#game">Play</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="landing">
+    <h2>Welcome to Augmented Adventure</h2>
+    <button onclick="startGame()" class="start-button">Start Your Adventure</button>
+  </div>
+
+  <div id="gameArea" class="game-area hidden">
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+    <p class="instructions">Move your mouse to control the character and collect stars!</p>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Augmented Adventure. All rights reserved.</p>
+    <div>
+      <a href="#facebook">Facebook</a> |
+      <a href="#twitter">Twitter</a> |
+      <a href="#instagram">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
+
+
+
